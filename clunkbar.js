@@ -1,3 +1,4 @@
+javascript(function(){
 document.addEventListener('keydown', function(event) {
   if (event.metaKey && event.keyCode === 220) {
     // Toggle visibility of the channel and guilds columns 
@@ -18,4 +19,5 @@ document.addEventListener('keydown', function(event) {
       }
     }
   }
+}
 });
